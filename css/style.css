@@ -1,0 +1,78 @@
+
+
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.header {
+     background: #0c0f38;
+     width: 100%;
+     padding: 40px 40px 40px 40px;
+}
+
+.logo a {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 1000px;
+}
+
+.banner_main {
+     background: #fff;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 90px;
+}
+
+.text-bg h2 {
+     color:#0082e6;
+     font-size: 60px;
+     line-height: 50px;
+     padding-bottom: 100px;
+     font-weight: bold;
+}
+.text-bg h1 {
+     color:#0082e6;
+     font-size: 60px;
+     line-height: 80px;
+     padding-bottom: 30px;
+     font-weight: bold;
+}
+
+.text-bg span {
+     color: #0082e6;
+     font-size: 40px;
+     line-height: 35px;
+     font-weight: bold;
+    
+}
+
+.text-bg p {
+     color: #1b9bff;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 2;
+}
+
+.text-bg a {
+     font-size: 16px;
+     background-color: #fff;
+     color: #000;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+}
+
+.text-bg a:hover {
+     background-color: #000;
+     color: #fff;
+}
+

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url() no-repeat;
+    background-size: cover;
+}
+ 
+.login-box {
+    width: 25%;
+    height:30% ;
+    position: absolute;
+    top:  55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #0082e6;
+}
+
+.login-box1{
+  width: 25%;
+    height:30% ;
+    position: absolute;
+    top:  55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #0082e6;
+}
+
+.login-box1 h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid #0082e6;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    padding: 0px;
+}
+ 
+/* ############## Alert error ############# */
+.alert {
+    padding: 0px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: -12px;
+}
+
+/* close button */
+.closebtn {
+    margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button  */
+.closebtn:hover {
+    color: black;
+}
+
+/* ############################################# */
+
+/* ############## Alert Success############ */
+.alerte{
+    padding: 0px;
+    background-color: #4BB543; /* Red */
+    color: white;
+    margin-bottom: -12px;
+}
+
+.closebtne{
+     margin-left: 15px;
+     color: white;
+     font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtne{
+    color: white;
+}
+/* ####################################### */
+.login-box h2 {
+    float: left;
+    font-size:17px;
+    border-bottom: 4px solid #FFAB30;
+    margin-bottom: 5px;
+    padding: 13px;
+    color :#FFAB30 ;
+}
+ 
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid #0082e6;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+ 
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #0082e6;
+}
+ 
+.fa {
+    width: px;
+    float: left;
+    text-align: center;
+}
+ 
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    margin: 0 10px;
+}
+ 
+.button {
+    width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #0082e6;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.admin_logo{
+   margin-left: 0%;
+    margin-top: 1.5rem;
+}

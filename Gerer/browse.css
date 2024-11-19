@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #EEE;
+    position: fixed;
+    height: 99%;
+    overflow: auto;
+    margin-top: -2.7rem;
+    text-align: center;
+  /* border-radius: 5px; */
+}
+
+.sidebar a {
+  display: block;
+  color: #1d1d1d;
+  padding: 16px;
+  text-decoration: none;
+
+}
+ 
+.sidebar a.active {
+  background-color: #0086ED;
+  color: white;
+  padding: 8px;
+  
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #0086ED;
+  color: white;
+  /* text-align: center; */
+}
+
+div.content {
+  margin-left: 188px;
+  padding: 1px 16px;
+ 
+  margin-top: 129px;
+  margin-left: 200px;
+  
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position:relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+/* nav bar browse */
+
+.content h1{
+    
+   
+    margin-top: -44px;
+    text-align: center;
+    font-size: 60px;
+    color: #EFEFEF;
+    background: #0086ED;
+
+}
+
+.content h3{
+    margin-top: 0;
+    text-align:left ;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 3rem ;
+    width: 100%;
+    color: #0086ED
+
+}
+
+.image-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.single-img{
+  padding: 0 20px 20px ;
+
+}
+
+img:hover{
+  opacity: .6;
+  transition:  .1S;
+}
+.image-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#Happy,
+#Sad,
+#Angry,
+#Surprised,
+#Neutral {
+  height: fit-content;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #FFF;
+}
+/*  deplacement */  
+.header_1 {
+    width: 25%;
+    /* height: 30%; */
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #0082e6;
+}
+.header_1 h1{
+  
+   float: left;
+    font-size: 40px;
+    border-bottom: 4px solid #0082e6;
+    margin-bottom: 50px;
+    padding: 0px;
+
+}
+.header_1 h5 {
+    width: 290px;
+    /* height: 30%; */
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #0082e6;
+}
+ 
+.fa {
+    width: px;
+    float: left;
+    text-align: center;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #0082e6;
+}
+
+.textbox input {
+  border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    margin: 0 10px;
+}
+.btn {
+   width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #0082e6;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.error {
+  width: 50%; 
+  top : 50% ;
+  margin: 0px auto; 
+  padding: 0px; 
+  border: 1px solid #FFf; 
+  color: #FFf; 
+  background: #f44336; 
+  border-radius: 0px; 
+  text-align: center;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+

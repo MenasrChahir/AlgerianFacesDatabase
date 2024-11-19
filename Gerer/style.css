@@ -1,0 +1,119 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #3f7aa6;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.butt{
+  width: 75%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #009879;;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.butt-2{
+  width: 75%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #f44336;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.butt_affect{
+  width: 75%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #FFC314;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+
+.alert {
+    padding: 0px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* close button */
+.closebtn {
+    margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button  */
+.closebtn:hover {
+    color: black;
+}
+/* ############ alert Success   ###############"" */
+.alerte{
+    padding: 0px;
+    background-color: #4BB543; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtne{
+     margin-left: 15px;
+     color: white;
+     font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtne{
+    color: white;
+}
